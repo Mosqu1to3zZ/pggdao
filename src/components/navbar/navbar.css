@@ -1,0 +1,47 @@
+.pgg__navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 2rem 6rem;
+}
+
+.pgg__navbar-links{
+    flex: 1;
+    display: flex;
+    justify-self: flex-start;
+    align-items: center;
+}
+
+.pgg__navbar-links_logo{
+    margin-right: 2rem;
+
+}
+
+.pgg__navbar-links_logo img{
+    width: 20%;
+    height: 20%;
+}
+.pgg__navbar-links_container{
+    display: flex;
+    flex-direction: row;
+}
+
+.pgg__navbar-sign{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.pgg__navbar-links_container p,
+.pgg__navbar-sign p,
+.pgg__navbar-menu_container p{
+    color:white;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    margin: 0 1rem ;
+    cursor: pointer;
+}
